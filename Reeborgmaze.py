@@ -5,7 +5,7 @@ def turn_right():
 def newall():
         if wall_on_right() and wall_in_front()== True:
             turn_left()
-        elif front_is_clear() and right_is_clear() == True:
+        elif front_is_clear() == True:
             move()
         elif right_is_clear() == True:
             turn_right()
