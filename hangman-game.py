@@ -2,7 +2,9 @@ word_list = ["aardvark" , "camel" , "baboon"]
 
 import random
 chosen_word = random.choice(word_list)
+blanks = "_"*len(chosen_word)
 print(chosen_word)
+print(blanks)
 
 guess = input("Guess a letter\n").lower()
 print(guess)
