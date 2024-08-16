@@ -31,8 +31,8 @@ while not game_over:
         else:
             display += "_"
 
-    if guess in correct_letters:
-        print("you already guessed that!")
+        if guess in correct_letters:
+            print("you already guessed that!")
     if guess not in correct_letters:
         lives -= 1
         print(f"you have {lives} lives left")
