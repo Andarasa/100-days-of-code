@@ -15,9 +15,11 @@ while loop_start == True:
 
     print(bid_list)
     if other_bidders == "no":
+        final_bid = max(bid_list, key=bid_list.get)
+        print(f"The winning bidder is {final_bid} with a bid of ")
 
-def compare(bidding_dictionary):
 
-    for bids in bidding_dictionary:
+#def compare(bidding_dictionary):
+
+
         
-        print(f"The winning bid is {final_bid}")
